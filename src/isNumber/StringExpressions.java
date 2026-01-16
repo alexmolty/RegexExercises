@@ -1,4 +1,4 @@
-package isNumberisEmail;
+package isNumber;
 
 public class StringExpressions {
     public static boolean isNumber(String input) {

@@ -1,4 +1,4 @@
-package isNumberisEmail;
+package isNumber;
 
 import org.junit.jupiter.api.Test;
 
