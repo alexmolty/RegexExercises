@@ -13,6 +13,7 @@ public class SelectorPhoto {
         String[] temp = new String[pictures.length];
         int index = 0;
         for (String picture : pictures) {
+            if(picture == null) continue;
             Matcher m = p.matcher(picture);
             if(m.find()) {
                 temp[index++] = picture;
