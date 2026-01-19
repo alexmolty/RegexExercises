@@ -20,5 +20,7 @@ class RestaurantOrderTest {
         assertEquals(0.3, RestaurantOrder.calculateTotalPrice(order), 0.001);
         order = "Croisan_2023:12, Machete_steak_150g:50";
         assertEquals(62, RestaurantOrder.calculateTotalPrice(order), 0.001);
+        order = "Soup_bouyabese: 20, Soup_bouyabese:     20";
+        assertEquals(40, RestaurantOrder.calculateTotalPrice(order), 0.001);
     }
 }

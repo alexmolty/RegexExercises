@@ -19,6 +19,7 @@ class StringExpressionsTest {
         assertTrue(StringExpressions.isNumber("0"));
         assertTrue(StringExpressions.isNumber("0.2345"));
         assertTrue(StringExpressions.isNumber("-0.2345"));
+        assertTrue(StringExpressions.isNumber("10.6"));
         // false
         assertFalse(StringExpressions.isNumber("4..12"));
         assertFalse(StringExpressions.isNumber("4c12"));
